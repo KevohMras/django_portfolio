@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #3c6ab9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0d3d85;
+}
+
+/* Styling the container */
+.container {
+  border-radius: 5px;
+  background-color: #f1efef;
+  padding: 10px;
+}
+
+/* The two columns */
+.column {
+  float:left;
+  width: 50%;
+  margin-top: 20px;
+  padding: 5px;
+}
+.columnright {
+  float:right;
+  width: 50%;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.other{
+  font-size: 20px;
+}
